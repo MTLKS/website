@@ -1,0 +1,33 @@
+[[project]]
+name = "Task Helper Intra Linked Automator Bot"
+desc = "Task Helper Intra Linked Automator Bot streamlines the process of rush evaluations that were originally managed by the staff of 42KL. Thanks to the team, this project is currently live in production at 42KL, enabling the staff to concentrate on higher-priority tasks."
+tags = ["hackathon", "discord", "nestjs"]
+links = [
+    { name = "medium", url = "https://blog.42kl.edu.my/42-kuala-lumpur-students-shine-at-2-hackathons-a0cce24895fa" },
+    { name = "github", url = "https://github.com/MTLKS/42hackathon2023" },
+]
+cover.image = "images/projects/thilabot.png"
+cover.alt = "discord bot with a picture of a timetable"
+
+[[project]]
+name = "PONGSH"
+desc = "The final project of 42 cursus is ft_transcendence, which is to build a real-time online implementation of the classic game, Pong. PONGSH is a unique take on the project as the user is required to navigate the website using an interactive shell. Built with NestJS, React, Tailwind, PixiJS and more."
+tags = ["ft_transcendence", "pong", "nestjs", "react", "pixijs"]
+links = [
+    { name = "website", url = "https://pongsh.ijon.dev" },
+    { name = "github", url = "https://github.com/MTLKS/ft_transcendence" },
+]
+cover.image = "images/projects/pongsh.png"
+cover.alt = "a game in pongsh"
+
+
+[[project]]
+name = "Dungeon Amisis"
+desc = "Dungeon Amisis is a puzzle game built with Godot and was developed for 42KL Game Jam 2023. You play as The Adventurer, seeking the treasures in Dungeon Amisis. It turns out there is a reason why no one who entered this dungeon has ever returned."
+tags = ["gamedev", "gamejam", "godot"]
+links = [
+    { name = "itch.io", url = "https://mtlks.itch.io/dungeonamisis" },
+    { name = "gamejam", url = "https://itch.io/jam/42kl-game-jam-2023" },
+]
+cover.image = "images/projects/dungeonamisis.png"
+cover.alt = "scene in dungeon amisis the game"

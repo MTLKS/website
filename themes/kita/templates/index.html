@@ -18,6 +18,8 @@
       {% include "partials/profile.html" %}<!---->
       {% endif %}<!---->
 
+      <section>{{ section.content | safe }}</section>
+
       {% include "partials/page_list.html" %}<!---->
       {% endblock main %}
     </main>

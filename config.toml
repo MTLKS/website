@@ -21,8 +21,8 @@ highlight_code = true
 # Put all your custom variables here
 
 [extra.profile]
-name = "Matthew T. Liew K.S."
-bio = "Tech Enthusiast | DevOps | NixOS i3"
+name = "Matthew T. Liew"
+bio = "Tech Enthusiast | DevOps | NixOS"
 avatar_url = "images/profile.png"
 avatar_invert = false
 
@@ -41,10 +41,3 @@ url = "$BASE_URL"
 [[extra.menu]]
 name = "/ projects"
 url = "$BASE_URL/projects"
-
-[[extra.menu]]
-name = "/ log"
-url = "$BASE_URL/log"
-
-[extra.footer]
-since = 2024

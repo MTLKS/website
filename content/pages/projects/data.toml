@@ -1,6 +1,16 @@
 [[project]]
+name = "Inception-of-Things"
+desc = "Inception-of-Things is an introduction project to Kubernetes. This project teaches the installation and usage of Kubernetes (K3s & K3d) as well as concepts such as Ingress (Traefik), GitOps Continuous Delivery (ArgoCD). This project also utilizes self-hosted GitLab for integration with ArgoCD and Vagrant for provisioning virtual machines for a multi-node cluster setup."
+tags = ["devops", "kubernetes"]
+links = [
+    { name = "github", url = "https://github.com/MTLKS/inception-of-things" }
+]
+cover.image = "images/projects/inceptionofthings.png"
+cover.alt = ""
+
+[[project]]
 name = "Task Helper Intra Linked Automator Bot"
-desc = "Task Helper Intra Linked Automator Bot streamlines the process of rush evaluations that were originally managed by the staff of 42KL. Thanks to the team, this project is currently live in production at 42KL, enabling the staff to concentrate on higher-priority tasks."
+desc = "THILA Bot streamlines the process of rush evaluations that were originally managed by the staff of 42KL. This project was a part of 42KL Peer-Defence Hackathon 2023 and is currently live in production at 42KL, enabling the staff to concentrate on higher-priority tasks."
 tags = ["hackathon", "discord", "nestjs"]
 links = [
     { name = "medium", url = "https://blog.42kl.edu.my/42-kuala-lumpur-students-shine-at-2-hackathons-a0cce24895fa" },
@@ -14,7 +24,6 @@ name = "PONGSH"
 desc = "The final project of 42 cursus is ft_transcendence, which is to build a real-time online implementation of the classic game, Pong. PONGSH is a unique take on the project as the user is required to navigate the website using an interactive shell. Built with NestJS, React, Tailwind, PixiJS and more."
 tags = ["ft_transcendence", "pong", "nestjs", "react", "pixijs"]
 links = [
-    { name = "website", url = "https://pongsh.ijon.dev" },
     { name = "github", url = "https://github.com/MTLKS/ft_transcendence" },
 ]
 cover.image = "images/projects/pongsh.png"

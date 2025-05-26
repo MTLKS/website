@@ -1364,8 +1364,8 @@ pre table td:nth-of-type(1) {
   min-height: calc(100% - 9rem);
 }
 
-.w-16 {
-  width: 4rem;
+.w-28 {
+  width: 7rem;
 }
 
 .w-4 {

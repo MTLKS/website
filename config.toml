@@ -23,7 +23,7 @@ highlight_code = true
 [extra.profile]
 name = "Matthew T. Liew"
 bio = "Tech Enthusiast | DevOps | NixOS"
-avatar_url = "images/profile.png"
+avatar_url = "images/profile.jpg"
 avatar_invert = false
 
 [[extra.profile.social]]

@@ -19,4 +19,6 @@ function flipCoin() {
 }
 
 coin.addEventListener("click", flipCoin);
-window.addEventListener("load", flipCoin);
+window.addEventListener("load", () => {
+    setTimeout(flipCoin, 300);
+});

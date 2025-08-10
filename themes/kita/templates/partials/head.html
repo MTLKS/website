@@ -77,6 +77,7 @@
       --header-dark: {{ config.extra.style.header_dark_color | default(value="#27272a") }};
     }
   </style>
+  <script src="{{ get_url(path=`main.js`) }}" defer></script>
 
   {% if section.path is defined and section.path == "/" %}
   <!-- Avatar -->

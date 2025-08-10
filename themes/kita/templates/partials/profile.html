@@ -2,11 +2,17 @@
 <div class="mb-16 flex items-start">
   {% if config.extra.profile.avatar_url %}
   <div
-    class="not-prose mr-5 shrink-0 rounded-full border-[0.5px] border-black/10 bg-white/50 p-1 shadow dark:bg-white/[15%]"
+    id="coin"
+    class="coin not-prose mr-5 shrink-0 rounded-full border-[0.5px] border-black/10 bg-white/50 p-1 shadow dark:bg-white/[15%]"
   >
     <img
-      class="{% if config.extra.profile.avatar_invert %}dark:invert{% endif %} my-0 aspect-square w-28 rounded-full !bg-black/5"
+      class="front {% if config.extra.profile.avatar_invert %}dark:invert{% endif %} my-0 aspect-square w-28 rounded-full !bg-black/5"
       src="{{ get_url(path=config.extra.profile.avatar_url) }}"
+      alt="{{ config.extra.profile.name | default(value=config.title) }}"
+    />
+    <img
+      class="back {% if config.extra.profile.avatar_invert %}dark:invert{% endif %} my-0 aspect-square w-28 rounded-full !bg-black/5"
+      src="{{ get_url(path=`images/logo.png`) }}"
       alt="{{ config.extra.profile.name | default(value=config.title) }}"
     />
   </div>
